@@ -1,7 +1,7 @@
 import Bar from "./Bar"
 import Dashboard from "./Dashboard"
 
-function SlideBar(props){
+function SlideBar(){
     return <div className="bg-[#557a46] w-56 h-[90vh] text-white shadow-sm">
         <Bar bar="fa-solid fa-bars text-3xl ml-44 mt-2"/>
         <Dashboard icon1="fa-solid fa-box text-2xl" name="Dashboard"/>
